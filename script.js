@@ -47,7 +47,7 @@ function isThereAWinner() {
  //this function should return true if there is a current
   //winning play on the board
 
-  //the first one is completed for you, you must fill in the rest
+  //check win condition
   if (buttons[0].innerText == buttons[1].innerText && buttons[0].innerText == buttons[2].innerText&&buttons[0].innerText!="") {
     return true;
   } 
